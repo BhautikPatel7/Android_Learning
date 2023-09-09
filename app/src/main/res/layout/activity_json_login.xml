@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JsonLoginActivity"
+    android:orientation="vertical"
+    android:background="#D3ACA0">
+    <TextView
+
+        android:textColor="@color/black"
+        android:background="#CDA3A3"
+        android:textSize="40dp"
+        android:text="Fare Ride Is Waiting Yours"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/json_login_edittext_emai"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#421818"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Id/Contact no."
+        style="@style/EditText_20"></EditText>
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/json_login_edittext_password"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#421818"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Passcode"
+        style="@style/EditText_20"></EditText>
+
+    <Button
+        android:id="@+id/json_login_button_login"
+        android:textSize="20dp"
+        android:text="Login"
+        style="@style/button_20"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="50dp"></Button>
+    <Button
+        android:id="@+id/json_login_button_signup"
+        android:textSize="20dp"
+        android:text="Sign up"
+        style="@style/button_20"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="50dp"></Button>
+
+</LinearLayout>

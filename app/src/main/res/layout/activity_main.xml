@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yello"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header_main"
+       style="@style/textview"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heading" />
+
+    <EditText
+        android:id="@+id/email_main"
+        style="@style/edit_22"
+        android:background="@drawable/custom_border"
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_main"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:hint="Enter your email id"
+
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/passcode"
+        style="@style/edit_22"
+        android:background="@drawable/custom_border"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_main"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:hint="enter your passcode"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/button_done"
+         style="@style/button_20"
+            android:text="Done"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/passcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

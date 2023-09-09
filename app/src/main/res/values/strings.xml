@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">git app</string>
+    <string name="heading"> Submit your detail</string>
+    <string name="heading2">sign up</string>
+    <string name="KEYS">PASSCODE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

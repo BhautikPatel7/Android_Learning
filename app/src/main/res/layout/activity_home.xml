@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        style="@style/edit_22"
+        android:text="Email id :"></TextView>
+    <TextView
+        android:id="@+id/home_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+          style="@style/edit_22"
+        android:background="#DD9999"
+        android:padding="10dp"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            style="@style/edit_22"
+            android:text="Passcode :"></TextView>
+        <TextView
+            android:id="@+id/home_passcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/edit_22"
+            android:background="#B9E6C3"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:buttonTint="@color/black"
+            android:id="@+id/home_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:textSize="20dp"
+            android:layout_weight="1"></RadioButton>
+
+        <RadioButton
+            android:buttonTint="@color/black"
+            android:id="@+id/home_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:textSize="20dp"
+            android:layout_weight="1">
+
+        </RadioButton>
+        <RadioButton
+            android:buttonTint="@color/black"
+            android:id="@+id/home_transgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="transgender">
+
+        </RadioButton>
+
+    </RadioGroup>
+    <CheckBox
+        style="@style/chekbox_20"
+        android:id="@+id/home_android"
+        android:text="Android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        style="@style/chekbox_20"
+        android:id="@+id/home_flutter"
+        android:text="flutter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        style="@style/chekbox_20"
+        android:id="@+id/home_reactnative"
+        android:text="reactNative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        style="@style/chekbox_20"
+        android:id="@+id/home_ios"
+        android:text="ios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+
+    <Button
+        android:id="@+id/nextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/button_20"
+        android:text="next"></Button>
+
+
+</LinearLayout>

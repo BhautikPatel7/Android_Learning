@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#838A78"
+    android:orientation="vertical"
+    tools:context=".Add_Catagory_Activity">
+
+    <EditText
+        android:id="@+id/add_catagory_edittext"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#070707"
+        android:hint="Add Catagory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/button_Select_image"
+        android:layout_marginTop="10dp"
+        android:hint="Select Image"
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/add_catagory_imageview"
+        android:layout_marginVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"/>
+    <Button
+        android:id="@+id/button_upload_image"
+        android:layout_marginTop="10dp"
+        android:hint="Upload Image "
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
